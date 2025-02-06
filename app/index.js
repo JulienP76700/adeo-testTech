@@ -18,7 +18,6 @@ app.use(
 // Route to get horoscope sign
 app.get('/horoscope', (req, res) => {
   const { day, month } = req.query;
-  // console.log("date : " + month, day)
   if (!day || !month || isNaN(day) || isNaN(month)) {
     return res.status(400).json({ error: 'Birthdate query parameter is invalid' });
   }
