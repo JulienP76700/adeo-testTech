@@ -1,0 +1,21 @@
+{
+  "name": "horoscopecode",
+  "version": "1.0.0",
+  "description": "horoscope code for adeo test tech",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "horoscope": "^2.0.1",
+    "jest": "^29.7.0",
+    "pg": "^8.13.1",
+    "supertest": "^7.0.0"
+  }
+}
